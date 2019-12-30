@@ -1,0 +1,105 @@
+.jumbotron {
+      background-image: url(../img/banner.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .jumbotron, img  {
+      display: block; 
+      margin-right: auto; 
+      margin-left: auto;
+    }
+    .navbar-brand {
+      color: black;
+      font-weight: 200px;
+      
+    }
+    #img1 {
+      margin-top: -90px; 
+      border-radius: 30px; 
+      box-shadow: 10px 10px  15px grey;
+    }
+    #gamb1,#gamb2,#gamb3 {
+      border-radius: 60px;
+    }
+    .coba {
+      background-image: url(../img/sha.jpg);
+      height: 200px;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .coba a {
+      text-decoration: none;
+    }
+    #title {
+      font-weight: bold;
+      font-size: 40px;
+    }
+    #text1,#text2,#gambar2 {
+      opacity: 0;
+      transform: translate(-500, 0) rotate(15deg);
+      transition: 4s;
+    }
+    #gambar2 {
+      transform: translate(500,0) rotate(15deg);
+    }
+    #text1.text1,#text2.text2 , #gambar2.gambar2 {
+      opacity: 1;
+      transform: translate(0,0);
+    }
+    #text2 {
+      text-align: justify;
+    }
+    #gambar2 {
+      border-radius: 30px; 
+      box-shadow: 10px 10px  15px red;
+    }
+    #inf {
+      font-family: 'Baloo Bhai', cursive;
+    }
+
+    #gamb1,#gamb2,#gamb3 {
+      opacity: 0;
+      transform: translate(500,0);
+      transition: 2s;
+    }
+    #gemb2 {
+      transform: translate(-200,0);
+    }
+    #gemb3 {
+      transform: translate(-500,0);
+    }
+    #gamb1.gm,#gamb2.gm2,#gamb3.gm3 {
+      opacity: 1;
+      transform: translate(0,0);
+    }
+    #gambar3,#title3,#text3 {
+      opacity: 0;
+      transform: (-500,0);
+      transition: 5s;
+    }
+    #gambar3 {
+      border-radius: 60px;
+    }
+    #title3 {
+      font-weight: bold;
+    }
+    #text3 {
+      text-align: justify;    }
+    #title3,#text3 {
+      transform: translate(500,0);
+    }
+    #gambar3.gambar3,#title3.title3,#text3.text3 {
+      opacity: 1;
+      transform: translate(0,0);
+    }
+    .beritaa {
+      box-shadow: 10px 10px 15px grey;
+       width: 150px; 
+       background: lightblue; 
+       border-radius: 15px;
+    }
+    .beritaa h2 {
+      font-weight: bold;
+      border-radius: 30px;
+    }
+    
